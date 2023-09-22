@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-illustration/modern-professional-photo-studio-background-260nw-1233225910.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    font-family: 'Skranji', cursive;
+    font-size: 50;
+}
+hr{
+    width: 85%;
+    margin-top: 10px;
+    color: black;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 20;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    padding: 20;
+    border-top-color: black;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+.icon{
+    animation: wiggle 2s linear infinite;
+}
+input[type="submit"]{
+    margin-left: 15px;
+    box-shadow: 3px 3px 0px black;
+}
+input[type="submit"]:hover{
+    box-shadow: 5px 5px 0 black;
+}
+input[type="submit"]:active{
+    margin-bottom: -3px;
+    margin-right: -3px;
+    margin-left: 18px;
+}
+video{
+    /* Sizing ratio - 4:3 */
+    width: 53%;
+    height: 40%;
+    box-shadow: 10px 10px 4px darkgray;
+}
+a {
+    width: 40%;
+}
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {transform: rotateZ(0);}
+    15% {transform: rotateZ(-15deg);}
+    20% {transform: rotateZ(10deg);}
+    25% {transform: rotateZ(-10deg);}
+    30% {transform: rotateZ(6deg);}
+    35% {transform: rotateZ(-4deg);}
+    40%, 100% {transform: rotateZ(0);}
+}
